@@ -1,0 +1,9 @@
+main{padding: 10%}
+body{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+img{width: 100%; padding: 4px}
+.first_class{text-align: justify;
+            font-family: 'Courier New', Courier, monospace ;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.first_letter::first-letter {initial-letter: 2;}
+.text {font-size: 18px; text-align: justify}
+body {margin:2px;padding: 10%;}
+.horizontal_line{height: 4px;background-color: black;}
