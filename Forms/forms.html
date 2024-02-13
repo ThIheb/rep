@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <form method="post" action="#">
+        <p>
+            <h1>Your Personal Data : </h1>
+            <label>First Name : <input type="text" name="First Name" placeholder="Your First Name" size="15"></label>
+            <br>
+            <br>
+            <label>Middle Name : <input type="text" name="Middle Name" placeholder="Your Middle Name" size="15"></label>
+            <br>
+            <br>
+            <label>Last Name : <input type="text" name="Last Name" placeholder="Your Last Name" size="15"></label>
+
+            <h1>Your Address : </h1>
+            <label>Home Address : <select name="Countries">
+                <option value="Italy">Italy</option>
+                </select>
+                </label>
+            <input type="text" name="address" placeholder="Your Full Address" size="15">
+            <br>
+            <br>
+            <label>Telephone : <select name="Prefix">
+                <option value="">--select one--</option>
+                <option value="+39">+39</option>
+                <option value="+216">+216</option>
+            </select></label>
+            <label><input type="number" name="phone number" size="15"></label>
+            <br>
+            <br>
+            <label>E-mail : <input type="email" name="email" placeholder="Your E-mail" size="15"></label>
+            <br>
+            <br>
+            <label>Gender : <input type="radio" name="Gender" value="m">Male</label>                
+            <input type="radio" name="Gender" value="f">Female</label>
+            <input type="radio" name="Gender" value="o">Other</label>
+            <br>
+            <br>
+            <label>Cultural Preferences : <input type="radio" name="Cultural Preferences" value="Mu">Music</label>
+            <input type="radio" name="Cultural Preferences" value="DN">Dancing</label>
+            <h1>Personal Description : </h1>
+            <label><textarea cols="60" rows="8" placeholder="Please write a brief Personal Description"></textarea></label>
+        </p>
+    </form>
+</html>
